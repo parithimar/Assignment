@@ -1,0 +1,100 @@
+1) True and False are the two boolean values we write them using True , False
+
+
+2) and,or, not are the three boolean operators
+
+
+3) here T represents True and F represents False
+
+    and operator truth table
+    
+    T and T=T
+    T and F=F
+    F and T=F
+    F and F=F
+    
+    or operator truth table
+    
+    T or T = T
+    T or F = T
+    F or T = T
+    F or F = F
+    
+    not operator truth table
+    
+    not T = F
+    not F = T
+    
+    
+4) (5>4) and (3==5) evaluates to false
+   not(5>4) evaluates to false
+   (5>4) or (3==5) evaluates to true
+   not((5>4) or (3==5)) evaluates to false
+   (True and True) and (True==False) evaluates to false
+   (not False) or (not True) evaluates to true
+   
+   
+5) < , <= , > , >= , ==, != are the six comparison operators
+   
+   
+6) == is the equal to operator and = is the assignment operator.
+   if you want to check whether two operands are equal we use == operator.suppose variables a=4 and b=5 then  if we want to
+    check their equality then we use a==b.
+    
+    and in the above example we assigned a as 4 and b as 5 here we use assignmet operator a = 4 .
+    
+    
+7) first part
+
+    spam=0
+       if spam>10:
+            print('eggs')
+            
+        the second part
+        
+        if spam>5:
+            print("bacon")
+            
+        third part
+        
+        else:
+            print('ham')
+            print('spam')
+            print('spam')
+            
+            
+8)
+
+spam = int(input('enter an integer'))
+
+if spam==1:
+    print('hello')
+elif spam==2:
+    print('howdy')
+else:
+    print('greetings')
+    
+    
+    
+    
+9)ctrl+c
+
+10)break statement exits a loop where as continue statement exits a current iteration and goes to the next iteration.
+
+11)no difference all three gives the same output.
+
+12)
+   using for loop
+   
+  for i in range(1,11):
+    print(i)
+   
+using while loop
+
+i=1
+while i <11:
+    print(i)
+    i+=1
+    
+13)spam.bacon()
+    
