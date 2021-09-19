@@ -1,0 +1,18 @@
+1) d1={} or d1=dict()
+
+2) 42
+
+3) A list can store a sequence of objects in a certain order such that you can index into the list, or iterate over the list. Moreover, List      is a mutable type meaning that lists can be modified after they have been created.
+   Python dictionary is an implementation of a hash table and is a key-value store. It is not ordered and it requires that the keys are          hashtable. Also, it is fast for lookups by key.
+   
+4) it gives key error
+
+5) both evaluates to True if 'cat' is a key
+
+6) 'cat' in spam evaluates to True if 'cat' is a key otherwise false .and 'cat' in spam.values() evaluates to false if 'cat' is a key in spam
+   if 'cat' is a value then spam.values() evaluates to True
+   
+7) spam{"color":"black"}
+
+8) module is pprint .the class is PrettyPrinter and the function is pprint()
+
