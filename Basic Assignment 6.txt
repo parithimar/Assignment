@@ -1,0 +1,46 @@
+1) To insert characters that are illegal in a string, use an escape character.
+   An escape character is a backslash \ followed by the character you want to insert.
+   
+   examples of some of the escape characters are
+    \' Single Quote
+    \\ Backslash
+    \n New Line
+    \r Carriage Return
+    \t Tab
+    \b Backspace
+    \f Form Feed
+    \ooo Octal value
+    \xhh Hex value
+    
+2) n stands for new line and t stands for Tab
+
+3) In Python strings, the backslash “ ” is a special character, also called the “escape” character. It is used in representing certain            whitespace characters: “\t” is a tab, “\n” is a new line, and “\r” is a carriage return. Finally, “ ” can be used to escape itself: “\” is    the literal backslash character.
+
+4) we can use single quote within double quote without escape character
+
+5) In order to print without newline in Python, you need to add an extra argument "end " to your print function that will tell the program that you don’t want your next string to be on a new line.
+
+ example:
+
+print("Hello there!", end = '')
+print("It is a great day.")
+
+
+6)'e'
+  'Hello'
+  'Hello'
+  'lo, world!'
+  
+7) HELLO
+   True
+   hello
+   
+   
+8)['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+  'There-can-only-one.'
+  
+9)ljust(),rjust(),center()
+
+10)trim() method can be used
+   
+   
