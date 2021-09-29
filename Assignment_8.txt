@@ -1,0 +1,14 @@
+1) no
+
+2) You can import the module with import pyinputplus as pyip so that you can enter a shorter name when calling the module's functions. 
+
+3) when you use inputInt() the program expects an integer value as input but in inputFloat() it expects a float value.
+
+4)  pyip.inputInt(prompt = "Enter an Integer... ",
+                    min = 0, lessThan = 99)
+                    
+5) The allowRegexes and blockRegexes keyword arguments take a list of regular expression strings to determine what the PyInputPlus function      will accept or reject as valid input.
+
+6) "Blank values are not allowed" will be printed 3 times and ValidationException will be thrown finally
+
+7) "Blank values are not allowed" will be printed 3 times and "hello" will be printed at the end
