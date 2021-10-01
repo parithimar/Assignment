@@ -1,0 +1,21 @@
+1. shutil.copy() wil copy only a single file but shutil.copytree() will copy an entire folder and every folder and file containing in it
+
+2. What is the name of the feature used to rename files?
+   os.rename()
+
+3. How are the delete functions in the send2trash and shutil modules different?
+   send2trash moves the file or folder to the recycle bin but shutil deletes the file completely
+
+4. ZipFile objects have a close() function that is similar to that of File objects. What ZipFile method is similar to the open() method of        File objects?
+   zipfile.ZipFile()
+5. Create a programme that searches a folder tree for files with a certain file extension (such as .pdf or .jpg). Copy these files to a new      folder from wherever they are now.
+
+import shutil
+import os
+for root, _, files in os.walk(r'C:\Users\suriya\Desktop\pixel art'):
+    print(root)
+    for file in files:
+        if file[-3:] == 'jpg' or file[-3:] == 'pdf':
+            print(file)
+            src = root+ '\\' + file
+            shutil.copy(src,r'C:\Users\suriya\Desktop\pixel art new')       
