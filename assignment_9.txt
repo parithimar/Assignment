@@ -1,0 +1,19 @@
+1) Relative Path is the hierarchical path that locates a file or folder on a file system starting from the current directory.
+
+2) C:\Windows
+
+3) The method getcwd() returns current working directory of a process.and os.chdir() used to change the current working directory to specified    path. 
+
+4) they are root folders
+ 
+5) bacon and eggs are directories and c:\ is the base name
+
+6) r: Read-Only mode.
+   r+: Read and write mode. ...
+   rb: Read-only binary mode to read images, videos, etc.
+   
+7)  The pointer is placed at the beginning of the file and this will overwrite any existing file with the same name. 
+
+8) The readline method reads one line from the file and returns it as a string. The read() method returns the specified number of bytes from      the file. Default is -1 which means the whole file.
+
+9) A shelf value resembles a dictionary value; it has keys and values, along with keys() and values() methods that work similarly to the          dictionary methods of the same names.
