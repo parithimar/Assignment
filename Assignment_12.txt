@@ -1,0 +1,23 @@
+1.PdfFileReader() needs to be opened in read-binary mode by passing 'rb' as the second argument to open(). PdfFileWriter() needs to be opened in write-binary mode with 'wb'.
+
+2.You can get a Page object by calling the getPage() method  on a PdfFileReader object and passing it the page number of the page you're interested in
+
+3.The total number of pages in the document is stored in the numPages attribute of a PdfFileReader object 
+
+4.we should deccrypt using the following command "file.decrypt(swordfish)"
+
+5.The Page.GetRotation() method returns the Page.Rotate enum specifying the current rotation
+
+6.ParagraphFormat objects Provides access to paragraph formatting such as justification, indentation, line spacing, space before and after, and widow/orphan control.where as A run is the object most closely associated with inline content; text, pictures, and other items that are flowed between the block-item boundaries within a paragraph.
+
+7.doc.paragraphs command is used
+
+8.RUN object has
+
+9.True means the property is “on”, False means it is “off”. Conceptually, the None value means “inherit”
+
+10.by using the following commands document = Document(),document.save('test.docx') 
+
+11.doc.add_paragraph(text='Hello, there!', style=None)
+
+12.You can number headings so that top-level headings (Heading 1) are numbered 1, 2, 3, for example, and second-level headings (Heading 2) are numbered 1.1, 1.2, 1.3.
