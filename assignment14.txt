@@ -1,0 +1,16 @@
+1.RGBA stands for (Red-Green-Blue-Alpha)
+
+2.we use a function of Image module called getdata() to extract the pixel values
+
+3.The box.tuple submodule provides read-only access for the tuple userdata type. It allows, for a single tuple: selective retrieval of the field contents, retrieval of information about size, iteration over all the fields, and conversion to a Lua table.
+
+4.image = PIL.Image.open("sample.png")
+width, height = image.size
+
+5.crop((0,50,51,51))
+
+6.by calling the save('newnameofthechangedimage.png') method on the altered image object
+
+7.The 'ImageDraw' module
+
+8.The 'ImageDraw' module provides simple 2D graphics support for Image Object. Generally, we use this module to create new images, annotate or retouch existing images and to generate graphics on the fly for web use. The graphics commands support the drawing of shapes and annotation of text.
